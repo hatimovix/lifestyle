@@ -1,0 +1,222 @@
+/* ========================= 
+   * BLogish Blog Template V 1.0.0
+   * Create By UltrasDzCoder .
+   1.FRAMWORK.
+   2.NAVBAR.
+   3.SLIDER.
+   4.CONTENT.
+   5.ABOUT.
+   6.BLOG.
+   6.FOOTER.
+   
+=========================*/
+
+
+/* FRAMWORK */
+
+
+
+
+
+:root{
+   --primary: red
+}
+
+::-webkit-scrollbar-track{
+   background-color: aliceblue;
+}
+
+
+.dot{
+   color: black !important
+}
+
+
+.active{
+   color: black !important
+}
+.primary{
+   color: black !important
+}
+
+
+.hd{
+   position: relative;
+}
+.hd h4{
+   font-size: 5rem;
+   color: aliceblue;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+
+}
+
+
+.hd-img{
+   width: 100%;
+   height: 600px;
+   filter: brightness(-50%) contrast(-40%);
+}
+/* FRAMWORK */
+
+
+/* NAVBAR */
+.navbar-brand{
+   font-family: sans-serif;
+   letter-spacing: 2px;
+}
+
+.nav-link{
+   padding-inline: 1.55em !important ;
+   font-size: 1.005rem;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: black;
+
+}
+
+
+/* NAVBAR */
+
+/* SLIDER */
+.slider img {
+   width: 100%;
+   height: auto;
+   background-size: cover;
+   filter: brightness(60%) contrast(95%)
+}
+.carousel-caption{
+   top: 48%;
+   bottom: 1rem;
+
+}
+
+/* SLIDER */
+/* CONTENT */
+.blog-post{
+   background-color: rgb(213, 213, 213);
+   margin-block: 1.5em;
+   padding: 15px;
+}
+.img-post{
+   width: 100%;
+   height: 369px;
+   min-width: 100%;
+}
+.list-categouries{
+   list-style: none;
+   margin-left: 0;
+   padding-left: 0;
+   
+}
+.list-categouries  a svg{
+   color: rgb(42, 43, 43);
+   width: 50px;
+   height: auto;
+   padding: 5px;
+}
+.list-categouries  a{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 18px;
+}
+
+
+/* CONTENT */
+
+
+
+/* ABOUT */
+
+
+/* ABOUT */
+
+/* BLOG */
+.tag a{
+   margin: 5px;
+}
+.blog-article h1{
+   font-size: 2.5rem;
+   font-weight: 700;
+
+}
+
+.blog-article h2{
+   font-size: 2rem;
+   font-weight: 700;
+}
+.blog-article h3{
+   font-size: 1,5rem;
+   font-weight: 700;
+}
+.blog-article h4{
+   font-size: 1rem;
+   font-weight: 700;
+}
+.blog-article p{
+   font-weight: 500;
+   line-height: 1,8;
+   font-size: 1.25rem;
+}
+
+
+/* BLOG */
+
+
+/* FOOTER */
+.footer {
+   background-color: rgb(41, 41, 41);
+   padding: 3em; !important
+   margin-bottom: 0; !important
+}
+
+
+.footer >*, .footer a, .footer a:hover{
+   color: rgb(80, 153, 255); !important
+}
+
+
+/* FOOTER */
+
+/* icons*/
+.icon-moment{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.icon-moment a{
+   list-style: none;
+   text-decoration: none;
+   padding: 4px;
+   margin-bottom: 10px;
+   
+}
+.icon-moment a svg{
+   width: 26px;
+   height: auto;
+  
+}
+
+.red svg{
+   color: rgb(255, 50, 50);
+}
+
+.purple svg{
+   color: rgb(242, 59, 255);
+}
+
+.blue svg{
+   color: rgb(47, 89, 226);
+}
+
+
+/* logo-png*/
+
+.logoy img{
+   width: 160px;
+   height: auto;
+   padding-left: -20px;
+ 
+}
+
